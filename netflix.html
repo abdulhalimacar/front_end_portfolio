@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="netflix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Bowlby+One+SC&family=Kablammo&family=Sorts+Mill+Goudy:ital@1&display=swap" rel="stylesheet">
+    <title>NETFLIX SURVEY</title>
+</head>
+<body>
+    
+   <div id="container">
+
+    <header id="header">
+        
+        <h1 id="title">NET<span id="span1">FLIX</span> 
+        <h3 id="description">Thank you for signing up to NETFLIX. Tell me more about yourself.</h3>
+    </header>
+
+    <section id="survey">
+       
+        <form action="" method="get">
+
+            <div class="input">
+                <label for="te">Name</label>
+                <br>
+                <input type="text" placeholder="enter your name" id="te" name="name" required>
+            </div>
+
+            <div class="input">
+                <label for="yas">Age</label>
+                <br>
+                <input type="number" placeholder="age" name="yas" id="yas" min="18">
+            </div>
+            <div class="input">
+                <label for="mail">Email</label>
+                <br>
+                <input type="email" placeholder="enter your email" name="mail" id="mail">
+            </div>
+
+           <div>
+            <label for="content">Content type</label>
+            <br>
+            <select name="" id="dropdown">
+                <option value="" disabled selected>None</option>
+                <option value="movie">Movies</option>
+                <option value="series" selected>Series</option>
+                <option value="TV_shows">TV Show</option>
+            </select>
+        </div>
+
+        <div class="input">
+            <label for="">Movie Type</label>
+            <br>
+            <input type="checkbox" name="movie" id="first" value="comedy">
+            <label for="first">Comedy</label>
+            <br>
+            <input type="checkbox" name="movie" id="second" value="action">
+            <label for="">Action</label>
+            <br>
+            <input type="checkbox" name="movie" id="third" value="romance">
+            <label for="third">Romance</label>
+            <br>
+            <input type="checkbox" name="movie" id="fourth" value="science fiction">
+            <label for="fourth">Science Fiction</label>
+
+        </div>
+
+        <div class="input">
+            <label for="first_one">Gender</label>
+            <br>
+            <input type="radio" name="gender" id="first_one" value="Zlam">
+            <label for="first_one">Zlam</label>
+            <br>
+            <input type="radio" name="gender" id="second_onee" value="pirek">
+            <label for="second_onee">sanki pirete</label>
+        </div>
+    
+        <div class="input">
+            <label for="feedback">Feedback</label>
+            <br>
+            <textarea name="feedback" id="feedback" placeholder="any comment"></textarea>
+        </div>
+
+        <div class="form-submit">
+            <button type="submit" id="form-button">SEND</button>
+        </div>
+            
+        </form>
+        <br>
+
+        <p>This trial web-site is dedicated to my dear brother mr.Alaeddin Acar</p>
+
+    </section>
+
+   </div>
+
+   
+
+    
+    
+</body>
+</html>
+
+
