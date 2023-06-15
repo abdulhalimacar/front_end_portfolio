@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Bowlby+One+SC&family=Kablammo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+color: white;
+background-image:url(/netflix.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+#container{
+
+    max-width: 1240px;
+    height: 1036px;
+    background-color: rgba(0, 0, 0, 0.01);
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+#title{
+
+    font-size: 3.1rem;
+    font-family: 'Bowlby One', cursive;
+    color: white;
+}
+
+#span1{
+    color: #ff000f;
+}
+
+#description{
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+#header{
+    text-align: center;
+}
+
+textarea{
+    resize: none;
+    width: 100px;
+    height: 100px;
+}
+
+#survey{
+
+    width: 500px;
+    background-color: rgba(0,0,0,0.8);
+    margin:auto;
+    padding: 30px 40px
+}
+
+#te, 
+#yas,
+#mail,
+#feedback{
+
+    width: 100%;
+    padding: 12px 10px;
+    margin-top: 10px;
+}
+
+.input{
+    margin-top: 10px;
+}
+
+#form-button{
+    width: 160px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-submit{
+
+    text-align: center;
+
+
+}
+
+#form-button:hover{
+
+    background-color: white;
+    color: red;
+}
+
+form submit için butonu ortalamak için şu da yapılabilir di: margin: auto;
+width: 160px;
+margin-top: 15px;
