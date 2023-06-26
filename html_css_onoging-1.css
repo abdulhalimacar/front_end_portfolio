@@ -1,0 +1,62 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+.alar{
+    background-color: white;
+    color: white;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.alar .way1{
+
+    color: black;
+    font-weight: 1000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.span1{
+    color: red;
+}
+
+.h1_section{
+
+    margin-top: 50px;
+    font-size: x-large;
+}
+
+.sure{
+
+    color: rgb(198, 112, 112);
+}
+
+.sect1{
+
+    float: left;
+}
+
+
+
+.first_image{
+    width: 100%;
+    height: 100%;
+}
+
+.div2ofsect2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
