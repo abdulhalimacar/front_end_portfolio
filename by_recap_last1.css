@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+}
+
+a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f2f2f2;
+  padding: 10px;
+  white-space: nowrap; /* Added to prevent line breaks */
+}
+
+.dropdown-menu li {
+  display: inline-block; /* Display options inline */
+  margin-right: 10px; /* Add spacing between options */
+}
+
+.dropdown-menu li a {
+  color: #333; /* Set initial color of options */
+}
+
+.dropdown-menu li a:hover {
+  color: #ffcccc; /* Change color to soft red when hovering over options */
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Your existing CSS styles here */
+
+/* Your existing CSS styles here */
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.div-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.div-container div {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.div-container div:first-child {
+  margin-right: 20px;
+}
+
+.div-container div:last-child {
+  margin-left: 20px;
+}
+
+span {
+  color: red;
+}
+
+.go a:hover {
+  color: red;
+  background-color: white;
+}
+
+
+.container {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.left-div {
+  flex: 1;
+  background-color: white;
+  margin-right: 10px;
+  padding: 10px;
+  /* display: flex; */
+  align-items: center;
+}
+
+.right-div {
+  flex: 1;
+  background-color: white;
+  /* margin-left: 10px;
+  padding: 10px;
+  display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  height: 50vh;
+  background-image: url('adv.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+ul .link-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.my-link {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color:black;
+  background-color: #eee;
+  border-radius: 4px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.my-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.my-link:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.link-list li {
+   padding: 10px;
+  /* background-color: rgb(144, 124, 124); */
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+
+
+.my-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.my-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.my-button:active {
+  transform: scale(0.9);
+  box-shadow: none;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  padding: 10px;
+}
+
+.item {
+  padding: 0 10px;
+}
+
+.separator {
+  width: 2px;
+  height: 15px;
+  background-color: #aaa;
+  margin: 0 5px;
+}
+
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px;
+  border: 2px solid black;
+  background-color: rgb(194, 68, 68);
+}
+
+.item {
+  padding: 10px 10px;
+  font-size: large;
+  color: white;
+}
+
+.separator {
+  width: 2px;
+  height: 15px;
+  background-color: white;
+  margin: 0 5px;
+}
