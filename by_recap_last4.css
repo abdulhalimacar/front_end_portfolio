@@ -1,0 +1,315 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* body{
+  background-color: rgb(152, 152, 152);
+} */
+
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  display: inline-block;
+}
+
+.text {
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+
+a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+}
+
+.eee1 i {
+  font-size: 24px;
+  margin-right: 0.5rem;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  white-space: nowrap;
+  padding: 10px;
+ 
+}
+
+.dropdown-menu li {
+  display: inline-block; /* Display options inline */
+  margin-right: 10px; /* Add spacing between options */
+}
+
+.dropdown-menu li a {
+  color: #333; /* Set initial color of options */
+}
+
+.dropdown-menu li a:hover {
+  color: red; /*Change color to soft red when hovering over options*/
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Your existing CSS styles here */
+
+/* Your existing CSS styles here */
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.div-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.div-container div {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.div-container div:first-child {
+  margin-right: 20px;
+}
+
+.div-container div:last-child {
+  margin-left: 20px;
+}
+
+.ell {
+  color: red;
+}
+
+.go a:hover {
+  color: red;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.left-div {
+  flex: 1;
+  background-color: white;
+  margin-right: 10px; 
+  padding: 10px; 
+  align-items: center;
+  
+}
+
+.right-div {
+  flex: 1;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  height: 50vh;
+  background-image: url("adv.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+ul .link-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.my-link {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  background-color: #eee;
+  border-radius: 4px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.my-link:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.my-link:active {
+  transform: scale(0.9);
+  box-shadow: none;
+}
+
+.link-list li {
+  padding: 10px;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+.my-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.my-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.my-button:active {
+  transform: scale(0.9);
+  box-shadow: none;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  padding: 10px;
+}
+
+.item {
+  padding: 0 10px;
+}
+
+.separator {
+  width: 2px;
+  height: 15px;
+  background-color: #aaa;
+  margin: 0 5px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px;
+  border: 2px solid black;
+  background-color: rgb(194, 68, 68);
+}
+
+.item {
+  padding: 10px 10px;
+  font-size: large;
+  color: white;
+}
+
+.separator {
+  width: 2px;
+  height: 15px;
+  background-color: white;
+  margin: 0 5px;
+}
+
+.contact-link,
+.specialization-link {
+  
+    font-family: "Inter", Sans-serif;
+    font-size: 0.95em;
+    fill: #8A1C4A;
+    color: #8A1C4A;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    padding: 13px 13px 13px 13px;
+    transition-duration: 1s;
+    transition-property: transform;
+}
+
+.contact-link:active,
+.specialization-link:active {
+  transform: scale(0.9);
+  box-shadow: #4caf50;
+}
+
+.contact-link:hover,
+.specialization-link:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.percent span {
+  color: rgb(178, 88, 88);
+}
+
+.percent {
+  display: flex;
+  justify-content: center;
+}
+
+.divv {
+  padding: 10px 10px;
+  margin: 10px;
+}
+
+.sep {
+  width: 1px;
+  height: 60px;
+  background-color: black;
+  margin: 15px;
+}
+
+.sp {
+  margin-left: 40px;
+}
+
+.sp2 {
+  margin-left: 14px;
+}
+
+.sp3 {
+  margin-left: 30px;
+}
+
+.sp4 {
+  margin-left: 38px;
+}
+
+.hh5 {
+  margin-top: 5px;
+}
+
